@@ -1,0 +1,38 @@
+{
+  "name": "somudre",
+  "version": "0.0.1",
+  "description": "Description of Somudre Sarkar",
+  "keywords": [
+    "somudre",
+    "sarkar",
+    "moheshwar",
+    "amarnath",
+    "biswas",
+    "ananya"
+  ],
+  "homepage": "https://github.com/fluentmoheshwar/somudre-npm#readme",
+  "bugs": {
+    "url": "https://github.com/fluentmoheshwar/somudre-npm/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fluentmoheshwar/somudre-npm.git"
+  },
+  "license": "MIT",
+  "author": "Moheshwar Amarnath Biswas",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "somudre": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "undici-types": "^7.24.6"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.3",
+    "@types/node": "^25.9.4"
+  }
+}
